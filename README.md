@@ -17,7 +17,7 @@
 
 #### HASIL RUNNING NOMOR 1 ####
 
-(https://postimg.cc/CdDWcPmQ)
+(https://i.postimg.cc/44FsNjts/Screen-Shot-2019-09-22-at-16-33-24.png)](https://postimg.cc/CdDWcPmQ)
 
 Fungsi Marshal() dapat mengambil apa pun, yang didalam GO berarti antarmuka kosong dan mengembalikan sepotong byte serta  kesalahan. Jika Marshal() gagal membuat serialisasi nilai input, akan mengembalikan kesalahan non-nil. Marshal() memiliki beberapa batasan ketat, yaitu:
 
