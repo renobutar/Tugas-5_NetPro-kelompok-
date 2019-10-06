@@ -1,19 +1,10 @@
 # Tugas-5_NetPro-kelompok-
 
-<p align="center"
   <a><strong>  ANGGOTA KELOMPOK :  </strong></a> 
-</p>
-<p align="center">
   <a>  Meilyand Evriyan Timor (1301161769)  </a> 
-</p> 
-
-<p align="center">
   <a>  Reyhan Rahmansyah (1301160805)  </a> 
-</p>
-
-<p align="center">
   <a>  Reno Butar Butar  (1301164724)  </a> 
-</p> 
+
 
 #### HASIL RUNNING NOMOR 1 ####
 
