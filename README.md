@@ -1,19 +1,23 @@
 # Tugas-5_NetPro-kelompok-
 
-  <a><strong>  ANGGOTA KELOMPOK :  </strong></a>break
+  <a><strong>  ANGGOTA KELOMPOK :  </strong></a>
   <p><a>  Meilyand Evriyan Timor (1301161769)  </a> </p>
-  <a>  Reyhan Rahmansyah (1301160805)  </a> 
-  <a>  Reno Butar Butar  (1301164724)  </a> 
+  <p><a>  Reyhan Rahmansyah (1301160805)  </a> </p>
+  <p><a>  Reno Butar Butar  (1301164724)  </a> </p>
 
 
 #### HASIL RUNNING NOMOR 1 ####
 
 [![JSONMarshal.png](https://i.postimg.cc/Cxg6W1ZM/JSONMarshal.png)](https://postimg.cc/crFm3dMP)
 
-Fungsi Marshal() dapat mengambil apa pun, yang didalam GO berarti antarmuka kosong dan mengembalikan sepotong byte serta  kesalahan. Jika Marshal() gagal membuat serialisasi nilai input, akan mengembalikan kesalahan non-nil. Marshal() memiliki beberapa batasan ketat, yaitu:
+Cara kerjanya :
+Fungsi json.Marshal digunakan untuk decoding data ke json string. Sumber data bisa berupa variabel objek cetakan struct, map[string]interface{}, atau slice.
+ Kemudian Struct Person diinisialisasi pada variabel bytes dengan atribut nama depan (FirstName) “John” dan nama belakang (LastName) “Dow”. Kemudian, bytes diserialisasikan kedalam bentuk JSON dan dicetak menghasilkan keluaran struct Person dalam bentuk JSON ({“FirstName”:”John”,”LastName”:”Dow”}).
 
-#### HASIL RUNNING NOMOR 1 ####
+#### HASIL RUNNING NOMOR 2 ####
 
-[![Screen-Shot-2019-09-22-at-16-33-24.png](https://i.postimg.cc/44FsNjts/Screen-Shot-2019-09-22-at-16-33-24.png)](https://postimg.cc/CdDWcPmQ)
+[![JSONUNmarshal.png](https://i.postimg.cc/fbF7Q2H7/JSONUNmarshal.png)](https://postimg.cc/d72Z8BcD)
 
-Fungsi Marshal() dapat mengambil apa pun, yang didalam GO berarti antarmuka kosong dan mengembalikan sepotong byte serta  kesalahan. Jika Marshal() gagal membuat serialisasi nilai input, akan mengembalikan kesalahan non-nil. Marshal() memiliki beberapa batasan ketat, yaitu:
+Cara Kerja  : 
+Data json dituliskan sebagai string. Dengan menggunakan json.Unmarshal, json string bisa dikonversi menjadi bentuk objek. Struct Person dalam bentuk JSON di-assign ke variabel in, yang kemudian variabel in menjadi nilai untuk variabel bytes dalam tipe data []byte. Kemudian, variabel bytes di decode dari bentuk JSON menjadi bentuk struct Person dan ditampung pada variabel p. Sehinga, keluaran yang dihasilkan dari mencetak variabel p adalah {Firstname:John Lastname:Dow}.
+
