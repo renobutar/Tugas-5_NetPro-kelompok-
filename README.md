@@ -1,6 +1,6 @@
 # Tugas-5_NetPro-kelompok-
 
-  <a><strong>  ANGGOTA KELOMPOK :  </strong></a> 
+  <a><strong>  ANGGOTA KELOMPOK :  </strong></a> \n
   <a>  Meilyand Evriyan Timor (1301161769)  </a> 
   <a>  Reyhan Rahmansyah (1301160805)  </a> 
   <a>  Reno Butar Butar  (1301164724)  </a> 
